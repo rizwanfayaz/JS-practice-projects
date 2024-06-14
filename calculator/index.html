@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="/JS-practice-projects/calculator/style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+            <button id="nums" onclick="Dis('1')">1</button> <!--Dis() is a function defined in js-->
+            <button id="nums" onclick="Dis('2')">2</button>
+            <button id="nums" onclick="Dis('3')">3</button>
+            <button id="sym" onclick="Dis('+')">+</button>
+            <button id="nums" onclick="Dis('4')">4</button>
+            <button id="nums" onclick="Dis('5')">5</button>
+            <button id="nums" onclick="Dis('6')">6</button>
+            <button id="sym" onclick="Dis('-')">-</button>
+            <button id="nums" onclick="Dis('7')">7</button>
+            <button id="nums" onclick="Dis('8')">8</button>
+            <button id="nums" onclick="Dis('9')">9</button>
+            <button id="sym" onclick="Dis('*')">*</button>
+            <button id="nums" onclick="Dis('0')">0</button>
+            <button id="clr" onclick="clr()">AC</button>   <!--clr() is a function defined in js-->
+            <button id="sol" onclick="sol()">=</button>   <!--sol() is a function defined in js-->
+            <button id="sym" onclick="Dis('/')">/</button>
+        </div>
+    </div>
+    <script src="/JS-practice-projects/calculator/script.js"></script>
+</body>
+
+</html>
