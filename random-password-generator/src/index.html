@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="/JS-practice-projects/random-password-generator/src/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Generate a<br><span>Random Password</span></h1>
+        <div class="display">
+            <input type="text" id="psswrd" placeholder="Password">
+            <button id="clr-btn" onclick="clr()">Clear</button>
+            <img src="/JS-practice-projects/random-password-generator/images/copy.png" alt="copy-logo"
+                onclick="copyPswrd()">
+        </div>
+
+        <button onclick="createPassword()"> <img
+                src="/JS-practice-projects/random-password-generator/images/generate.png" alt="gen-logo">
+            Generate</button>
+    </div>
+
+    <script src="/JS-practice-projects/random-password-generator/src/script.js"></script>
+</body>
+
+</html>
